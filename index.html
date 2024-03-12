@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/724c66e66c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Carrito de compras</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="carrito">
+            <i class="fa-solid fa-cart-shopping">
+                <div class="buy-card">
+                    <ul class="nav-card">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                        <li></li>
+                    </ul>
+                    <div class="lista_de_compras">
+                    
+                    </div>
+                    <button id="vaciar_carrito">VACIAR CARRITO</button>
+                </div>
+            </i>
+        </nav>
+        <h1>Papeleria</h1>
+        <div class="grid" id="lista-productos">
+            <div class="items">
+                <img src="img/hoja membretada.jfif">
+                <div class="info">
+                    <h3>Hoja membretada</h3>
+                    <p>Impresion a tinta o laser</p>
+                    <div class="precio">
+                        <p>$220</p>
+                        <p class="descuento">$180</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="1">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="img/volantes1.4.png">
+                <div class="info">
+                    <h3>Volantes tamano 1/4 de carta</h3>
+                    <p>Impresion a tinta o laser</p>
+                    <div class="precio">
+                        <p>$140</p>
+                        <p class="descuento">$90</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="2">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="img/volante1.2.jpg">
+                <div class="info">
+                    <h3>Volantes tamano 1/2 de carta</h3>
+                    <p>Impresion a tinta o laser</p>
+                    <div class="precio">
+                        <p>$180</p>
+                        <p class="descuento">$120</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="3">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="img/tarjetas de pres.png">
+                <div class="info">
+                    <h3>Tarjetas de presentacion 100pza</h3>
+                    <p>Impresion laser por un laso</p>
+                    <div class="precio">
+                        <p>$150</p>
+                        <p class="descuento">$130</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="4">Agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="img/tarjetas de pres 2 lados.jpg">
+                <div class="info">
+                    <h3>tarjetas de presentacion 100pza</h3>
+                    <p>Impresion laser por 2 lados</p>
+                    <div class="precio">
+                        <p>$220</p>
+                        <p class="descuento">$190</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="5">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="items">
+                <img src="img/triptico.jfif">
+                <div class="info">
+                    <h3>Tripticos</h3>
+                    <p>Impresion a tinta</p>
+                    <div class="precio">
+                        <p>$8</p>
+                        <p class="descuento">$5</p>
+                    </div>
+                    <button class="agregar-carrito" data-id="6">Agregar al carrito</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
