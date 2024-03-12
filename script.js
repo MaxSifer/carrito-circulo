@@ -1,10 +1,8 @@
-// Variables
 $(document).ready(function () {
     const carrito = document.getElementById("carrito"),
         listaProductos = document.getElementById("lista-productos"),
-        contenedorCarrito = document.querySelector('.buy-car .lista_de_compras'),
-        vaciarCarritoBtn = document.querySelector('.vaciar_carrito');
-
+        contenedorCarrito = document.querySelector('.buy-card .lista_de_compras'),
+        vaciarCarritoBtn = document.querySelector('#vaciar_carrito');
     let articulosCarrito = [];
 
     registrarEventListeners();
@@ -61,7 +59,7 @@ $(document).ready(function () {
         } else {
             articulosCarrito.push(infoProducto); // Agregar el nuevo producto al carrito
         }
-        
+
         carritoHTML(); // Actualizar el carrito en el HTML
     }
 
